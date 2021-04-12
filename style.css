@@ -536,7 +536,15 @@ textarea {
 }
 
 @media(max-width: 620px){
+	.intro h1{
+		margin-bottom: 50px;
+		font-size: 40px;
+	}
+	.intro p{
+		margin-bottom: 50px;
+	}
 	.intro button{
+		font-size: 12pt;
 		width:150px;
 		height: 40px;
 	}
