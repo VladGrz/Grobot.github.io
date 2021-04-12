@@ -112,9 +112,12 @@ main {
 }
 
 .intro button{
-	font-size: 30px;
-	width: 250px;
-	height: 65px;
+	/*font-size: 30px;*/
+	font-size: 2.5vw;
+	width:17vw;
+	/*width: 250px;*/
+	height: 8vh;
+	/*height: 65px;*/
 	background-color: #EC625F;
 	color: #fff;
 	border: none;
@@ -137,7 +140,7 @@ header .background{
     right: 0;
 	width:100%;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	background: url(img/intro2.jpg);
 	background-size: cover;
 	background-color:#000;
@@ -544,7 +547,6 @@ textarea {
 		margin-bottom: 50px;
 	}
 	.intro button{
-		font-size: 12pt;
 		width:150px;
 		height: 40px;
 	}
