@@ -152,10 +152,10 @@ header .background{
 /*Про нас*/
 
 .about_us {
-	padding: 108px 51px;
+	padding: 100px 95px 100px;
 	display: flex;
 	position: relative;
-	flex-direction: row;
+	justify-content: center;
 	box-sizing: border-box;
 	width:100%;
 	background-color: #201F1F;
@@ -163,6 +163,8 @@ header .background{
 
 .about_us article {
 	width:45%;
+	margin-left: 0;
+	margin-right: auto;
 	color: #fff;
 }
 
@@ -176,11 +178,15 @@ header .background{
 	font-size: 16px	;
 	font-weight: normal;
 }
-
+.abus_img{
+	display: flex;
+	width: 40%;
+	align-items: center;
+}
 .about_us_img {
 	margin-left: auto;
 	float: right;
-	width: 50%;
+	width: 100%;
 }
 
 article {
@@ -198,12 +204,8 @@ article h3 {
 /*Переваги*/
 
 .advantages {
-	display: flex;
 	position: relative;
-	flex-direction: row;
-	padding-bottom: 60px;
-	padding-top: 73px;
-	align-items: center;
+	padding: 73px 95px 73px;
 	box-sizing: border-box;
 	width:100%;
 	background-color: #201F1F;
@@ -211,13 +213,17 @@ article h3 {
 
 .container {
 	display: flex;
-	flex-direction: row;
+	justify-content: center;
 	box-sizing: border-box;
 	width:100%;
 }
-
+.adv_img{
+	width:45%;
+	display: flex;
+	align-items: center;
+}
 .advantages_img {
-	width: 40%;
+	width: 100%;
 }
 
 .advantages button {
@@ -231,23 +237,23 @@ article h3 {
 }
 
 .left{
-	margin-right: 50px;
+	position:absolute;
+	left: 0;
+	top:50%;
+	transform: translateY(-50%);
 }
 .right{
-	margin-left: 50px;
+	position:absolute;
+	right: 0;
+	top:50%;
+	transform: translateY(-50%);
 }
 
 .advantages button:hover {
 	opacity: 80%;
 }
 
-.left:after {
-	content: "";
-	display:block;
-	clip-path: polygon(0 100%, 15% 100%, 50% 30%, 85% 100%, 100% 100%, 50% 0);
-	border-color: #fff;
-	z-index: 1;
-}
+
 .our_projects {
 	position: relative;
 }
@@ -529,6 +535,21 @@ textarea {
 
 
 @media(max-width: 870px){
+	.advantages{
+		padding: 73px 40px;
+	}
+	.container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.adv_img {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+	.container article{
+		margin: 0;
+		width: 80%;
+	}
 	.price_container{
 		flex-direction: column;
 		justify-content:  space-around;
@@ -536,9 +557,25 @@ textarea {
 	.price_box{
 		width: 80%;
 	}
+	.about_us{
+		flex-direction: column-reverse;
+		align-items: center;
+		justify-content: center;
+	}
+	.about_us article{
+		margin-top: 20px;
+		margin-right: 0;
+		width: 85%;
+	}
+	.abus_img{
+		width:85%;
+	}
 }
 
 @media(max-width: 620px){
+	.advantages button {
+		display: none;
+	}	
 	.intro h1{
 		margin-bottom: 50px;
 		font-size: 40px;
