@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 
 
@@ -87,7 +88,57 @@ main {
 	height:25px;
 }
 /*Головна сторінка*/
-
+.show_menu{
+	display: none;
+	position: fixed;
+	top:10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #ADADAD;
+	z-index: 10;
+}
+.show_menu img{
+	width:100%;
+}
+.burger_menu{
+	display: none;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 10px;
+	z-index: 10;
+}
+.burger_menu ul{
+	padding-top: 30px; 
+	padding-bottom: 10px; 
+	background-color: #242424;
+	list-style-type: none;
+	text-align: center;
+}
+.burger_menu ul li{
+	margin-bottom: 30px;
+}
+.burger_menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.close_menu{
+	display: none;
+	position: fixed;
+	top:10px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #ADADAD;
+	z-index: 11;
+}
+.close_menu img{
+	width:100%;
+	transform: rotate(180deg);
+}
 .intro {
 	position: fixed;
 	width: 70%;
@@ -573,8 +624,15 @@ textarea {
 }
 
 @media(max-width: 620px){
-
-
+	.show_menu{
+		display: block;
+	}
+	.nav_bar{
+		display: none;
+	}
+	header .background{
+		top: 0px;
+	}
 	.advantages button {
 		display: none;
 	}	
@@ -616,8 +674,8 @@ textarea {
 }
 @media(max-width: 500px){
 	.intro h1{
-		font-size: 50px;
-		line-height: 55px;
+		font-size: 45px;
+		line-height: 50px;
 	}
 	.intro p{
 		font-size: 15px;
