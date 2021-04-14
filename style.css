@@ -612,13 +612,19 @@ textarea {
 	.form{
 		width: 80%;
 	}
-
+	.intro h1{
+		font-size: 40px;
+		line-height: 45px;
+	}
 
 }
 @media(max-width: 500px){
 	.intro h1{
 		font-size: 30px;
 		line-height: 35px;
+	}
+	.intro p{
+		font-size: 15px;
 	}
 	.top{
 		flex-direction: column;
