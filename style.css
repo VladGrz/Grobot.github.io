@@ -192,7 +192,6 @@ header .background{
 article {
 	font-size: 16px;
 	font-weight: normal;
-	margin-left: auto;
 	color: #fff;
 	width:50%;
 }
@@ -213,7 +212,7 @@ article h3 {
 
 .container {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	box-sizing: border-box;
 	width:100%;
 }
@@ -261,7 +260,7 @@ article h3 {
 	background-color: #201F1F;
 	align-items: center;
 	font-size: 16px;
-	padding: 50px 86px;
+	padding: 86px 95px;
 }
 
 
@@ -274,10 +273,6 @@ article h3 {
 	flex-direction: row-reverse;
 }
 
-.our_projects .container:nth-child(even) article {
-	margin-right: auto;
-	margin-left: 0;
-}
 
 
 .section_header {
@@ -542,13 +537,20 @@ textarea {
 		flex-direction: column;
 		align-items: center;
 	}
+	.our_projects .container:nth-child(even) {
+		flex-direction: column;
+	}
+	.our_projects_img {
+		width: 75%;
+		margin-bottom: 40px;
+	}
 	.adv_img {
 		width: 80%;
 		margin-bottom: 30px;
 	}
 	.container article{
 		margin: 0;
-		width: 80%;
+		width: 90%;
 	}
 	.price_container{
 		flex-direction: column;
