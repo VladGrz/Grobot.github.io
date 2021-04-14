@@ -616,6 +616,10 @@ textarea {
 
 }
 @media(max-width: 500px){
+	.intro h1{
+		font-size: 30px;
+		line-height: 35px;
+	}
 	.top{
 		flex-direction: column;
 		margin-bottom: 20px;
