@@ -575,6 +575,11 @@ textarea {
 }
 
 @media(max-width: 620px){
+
+	.nav_bar{
+		display: none;
+	}
+
 	.advantages button {
 		display: none;
 	}	
