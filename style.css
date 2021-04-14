@@ -613,15 +613,15 @@ textarea {
 		width: 80%;
 	}
 	.intro h1{
-		font-size: 40px;
-		line-height: 45px;
+		font-size: 45px;
+		line-height: 50px;
 	}
 
 }
 @media(max-width: 500px){
 	.intro h1{
-		font-size: 30px;
-		line-height: 35px;
+		font-size: 35px;
+		line-height: 40px;
 	}
 	.intro p{
 		font-size: 15px;
