@@ -313,19 +313,16 @@ article h3 {
 
 .price_container {
 	display: flex;
-	margin: 0 auto;
 	margin-bottom: 30px;
 	justify-content: space-around;
-
+	align-items: center
 }
 
 .price_box {
 	position:relative;
 	width:25%;
 	min-height: 445px;
-	margin: 0 30px;
 	padding: 70px 10px;
-	margin-bottom: 30px;
 	box-sizing: border-box;
 	color:#fff;
 	font-size: 12pt;
@@ -558,6 +555,7 @@ textarea {
 	}
 	.price_box{
 		width: 80%;
+		margin-bottom: 40px;
 	}
 	.about_us{
 		flex-direction: column-reverse;
@@ -596,7 +594,10 @@ textarea {
 	}
 	.order_question{
 		flex-direction: column;
-		justify-content: space-between;
+		align-items: center;
+	}
+	.first{
+		margin-bottom: 50px;
 	}
 	.vertical_line {
 		display: none;
@@ -613,4 +614,23 @@ textarea {
 	}
 
 
+}
+@media(max-width: 500px){
+	.top{
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	.phone_email{
+		padding-left: 0;
+		margin-bottom: 20px;
+		width:90%;
+		text-align: center;
+	}
+	.footer_imgs{
+		border: 1px solid red;
+		width:90%;
+		display: flex;
+		justify-content: center;
+		padding-right: 0;
+	}
 }
