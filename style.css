@@ -627,7 +627,6 @@ textarea {
 		text-align: center;
 	}
 	.footer_imgs{
-		border: 1px solid red;
 		width:90%;
 		display: flex;
 		justify-content: center;
