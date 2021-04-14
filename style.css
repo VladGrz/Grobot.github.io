@@ -152,7 +152,7 @@ header .background{
 /*Про нас*/
 
 .about_us {
-	padding: 100px 95px 100px;
+	padding: 100px 40px 100px;
 	display: flex;
 	position: relative;
 	justify-content: center;
@@ -260,7 +260,7 @@ article h3 {
 	background-color: #201F1F;
 	align-items: center;
 	font-size: 16px;
-	padding: 86px 95px;
+	padding: 86px 40px;
 }
 
 
@@ -576,9 +576,6 @@ textarea {
 
 @media(max-width: 620px){
 
-	.nav_bar{
-		display: none;
-	}
 
 	.advantages button {
 		display: none;
