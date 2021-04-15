@@ -579,7 +579,7 @@ textarea {
 
 @media(max-width: 870px){
 	.advantages{
-		padding: 73px 40px;
+		padding: 73px 50px;
 	}
 	.container{
 		flex-direction: column;
@@ -612,6 +612,8 @@ textarea {
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	.about_us article{
 		margin-top: 20px;
