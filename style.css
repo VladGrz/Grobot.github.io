@@ -203,7 +203,7 @@ header .background{
 /*Про нас*/
 
 .about_us {
-	padding: 100px 40px 100px;
+	padding: 100px 95px 100px;
 	display: flex;
 	position: relative;
 	justify-content: center;
@@ -311,7 +311,7 @@ article h3 {
 	background-color: #201F1F;
 	align-items: center;
 	font-size: 16px;
-	padding: 86px 40px;
+	padding: 86px 95px;
 }
 
 
@@ -673,6 +673,9 @@ textarea {
 
 }
 @media(max-width: 500px){
+	.intro button{
+		font-size: 16px;
+	}
 	.intro h1{
 		font-size: 45px;
 		line-height: 50px;
