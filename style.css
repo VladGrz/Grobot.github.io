@@ -551,6 +551,10 @@ textarea {
 	width:50%;
 	text-align: left;
 }
+.phone_email a{
+	color: #fff;
+	text-decoration: none;
+}
 
 .footer_imgs{
 	width:50%;
